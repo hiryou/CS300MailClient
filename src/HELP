@@ -1,0 +1,11 @@
+email usage
+
+List of commands:
+
+help		view getting started help
+install		view installation instruction
+readme		view readme
+license		view program license
+<filename>	send <filename> as email, file must be an RFC-822 formatted 
+                email message.
+

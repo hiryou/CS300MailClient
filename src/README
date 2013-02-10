@@ -1,0 +1,56 @@
+Copyright 2010 by Long Nguyen
+Please included license in COPYING
+ or visit http://opensource.org/licenses/mit-license.php
+
+CONTENTS OF THIS FILE
+---------------------
+
+ * Introduction
+ * Installation
+ * Documentation
+
+
+INTRODUCTION
+------------
+
+Current Repository: bitBucket <http://bitbucket.org/hiryou/cs300_assignment02>
+
+Original Sponsor: Portland States University
+Original Developer: Long Nguyen <longuyen@pdx.edu>
+
+This is a simple email program designed for CS300 assignment 02, Portland States University, Fall 2010, prof.Bart Massey. The program parses an RFC-822 formatted email file and relays it to a pre-defined mailhost server in order to deliver.
+
+
+INSTALLATION
+------------
+
+Please consult INSTALL For further installation instruction.
+
+
+DOCUMENTATION
+-------------
+
+README					- This file
+INSTALL             	- Installation guide 
+HELP                	- About the program
+COPYING             	- License information
+
+Email Source Files:
+-------------------
+
+Makefile            	- GNU Makefile for compiling email program
+Main.cc            		- Program entry point
+MailSender.hh       	- MailSender class header file
+MailSender.cc       	- MailSender class implementation file
+
+Test Cases:
+-----------
+test001.txt	    		- Send mail to a gmail account with simple RFC-822 format
+test002.txt	    		- Send mail to a yahoo mail account with simple RFC-822 format
+test003.txt	    		- Send mail to a CS mail account with simple RFC-822 format
+test004.txt	    		- RFC-822 formatted with some comments
+test005.txt	    		- Send mail from and to unauthenticated email addresses
+test006.txt	    		- Incorrect email FROM and TO addresses
+test007.txt	    		- FROM and TO addresses are not specified
+test008.txt	    		- Only mail body is specified
+test009.txt	    		- Empty file

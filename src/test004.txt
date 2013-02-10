@@ -1,0 +1,10 @@
+From: longuyen@pdx.edu   			// my psu email account
+To: plongcocacola@gmail.com  		// my gmail account
+Date: Fri Oct 15 12:08:59 PDT 2010
+Subject: test
+
+This is a test message.
+A second line of the message.
+Third line of the message.
+
+Bye!
